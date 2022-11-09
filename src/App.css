@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+
+.services_header {
+  margin-bottom: 5px;
+}
+
+.services {
+  margin: auto;
+  padding: 0;
+}
+
+.service {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.service_info {
+  display: flex;
+}
+
+.service_info:hover {
+  cursor: pointer;
+}
+
+.service_name {
+  position: relative;
+}
+
+.service_price {
+  position: absolute;
+  left: 300px;
+}
+
+.service_content {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.service_loading {
+  margin-left: 20px;
+}
+
+.service_error {
+  margin-left: 20px;
+  background: pink;
+  padding: 5px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.service_error > button {
+  color: white;
+  background: #625e5e;
+  width: 140px;
+  margin-left: 20px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.service_navigation {
+  margin-left: 20px;
+}
